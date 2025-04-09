@@ -1,0 +1,167 @@
+/* Root Variables for Modern Theme */
+:root {
+    --primary-bg: #8AB0AB; /* Cambridge Blue */
+    --secondary-bg: #3E505B; /* Charcoal */
+    --button-bg: #26413C; /* Dark Slate Gray */
+    --text-primary: #1A1D1A; /* Eerie Black */
+    --text-light: #FFFFFF; /* White */
+    --border-color: #ccc;
+    --highlight-bg: #03120E; /* Night */
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--primary-bg);
+    color: var(--text-primary);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--button-bg);
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--secondary-bg);
+    color: var(--text-light);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header .app-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.header .nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header .nav-link {
+    font-size: 1rem;
+    color: var(--text-light);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.header .nav-link:hover {
+    color: var(--button-bg);
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: var(--primary-bg);
+    color: var(--text-primary);
+}
+
+.hero-section .hero-content {
+    max-width: 800px;
+}
+
+.hero-section .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: var(--secondary-bg);
+}
+
+.hero-section .start-journey-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--button-bg);
+    color: var(--text-light);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-section .start-journey-button:hover {
+    background-color: var(--highlight-bg);
+}
+
+/* Features Section */
+.features-section {
+    padding: 50px 20px;
+    background-color: var(--secondary-bg);
+    color: var(--text-light);
+}
+
+.features-section .section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features-section .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.features-section .feature {
+    background-color: var(--highlight-bg);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.features-section .feature:hover {
+    transform: scale(1.05);
+}
+
+.features-section .feature-icon {
+    margin-bottom: 10px;
+}
+
+.features-section .feature-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.features-section .feature-description {
+    font-size: 1rem;
+    color: var(--text-light);
+}
+
+/* Footer Section */
+.footer {
+    padding: 20px;
+    background-color: var(--secondary-bg);
+    color: var(--text-light);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.text-center {
+    text-align: center;
+}

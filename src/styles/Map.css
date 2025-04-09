@@ -1,0 +1,8 @@
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .end-marker {
+    filter: hue-rotate(120deg);
+  }
