@@ -1,6 +1,7 @@
 {
   "name": "eco_routes",
   "version": "1.0.0",
+  "homepage": "https://Angell26.github.io/eco_routes",
   "dependencies": {
     "@react-leaflet/core": "^2.1.0",
     "axios": "^1.7.9",
@@ -20,6 +21,7 @@
     "babel-loader": "^9.2.1",
     "css-loader": "^6.8.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.5.4",
     "style-loader": "^3.3.3",
     "webpack": "^5.89.0",
@@ -27,7 +29,10 @@
     "webpack-dev-server": "^4.15.1"
   },
   "scripts": {
-    "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production"
-  }
+  "start": "webpack serve --mode development --open",
+  "build": "webpack --mode production",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+
 }
