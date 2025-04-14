@@ -47,54 +47,36 @@ Edit
 
 ## 🖥️ How to Run Locally
 
-### 1. Clone the Repository
-```bash
+### 1. Clone the repository
+bash
+Copy
 git clone https://github.com/your-username/eco_routes.git
 cd eco_routes
 2. Install Dependencies
 bash
 Copy
-Edit
 npm install
 3. Start the Development Server
 bash
 Copy
-Edit
 npm start
 Then open:
 👉 http://localhost:8080
 
 🌐 Deployment
-Deployed using Netlify
+To deploy the application on Netlify, follow these steps:
 
-To deploy:
-
-Create a production build:
-
+1. Create a Production Build
 bash
 Copy
-Edit
 npm run build
-Upload the /dist folder manually to Netlify via https://app.netlify.com/drop
+2. Upload the /dist Folder to Netlify
+Go to Netlify and upload the /dist folder manually.
 
-Or set up continuous deployment from GitHub:
+Alternatively, set up continuous deployment from GitHub:
 
 Build Command: npm run build
 
 Publish Directory: dist
-
-📚 Project Report
-This project is supported by a 10,000+ word academic dissertation submitted to the University of Greenwich, addressing:
-
-Sustainable transportation
-
-Green software architecture
-
-Environmental impact modeling
-
-Integration of real-time APIs
-
 📬 Author
-Made with 💚 by Angel Raju
-MSc Computing and Information Systems
-University of Greenwich
+Made by Angel
