@@ -48,32 +48,22 @@ Edit
 ## 🖥️ How to Run Locally
 
 ### 1. Clone the repository
-1. Clone the Repository
-To get started with the Eco-Routes project, you'll need to clone the repository to your local machine. This means creating a copy of the project on your system to work with.
+To get started with the Eco-Routes project, you need to clone the repository to your local machine. This will create a local copy of the project that you can work with.
 
-Steps to Clone the Repository:
-Open your terminal or command prompt. This is where you'll type the commands.
+Steps:
+Open your terminal (or command prompt).
 
-Clone the repository by running the following command in your terminal:
+Clone the repository by running the following command:
 
 bash
 Copy
 git clone https://github.com/your-username/eco_routes.git
-Explanation:
+Replace your-username with your actual GitHub username.
 
-git clone is a command that makes a copy of the repository.
-
-Replace your-username with your GitHub username to reference the correct repository.
-
-This command will create a new folder named eco_routes on your local machine, which contains all the files and code from the GitHub repository.
-
-Navigate into the project directory by running the following command:
+After cloning, navigate into the project directory with the following command:
 
 bash
 Copy
 cd eco_routes
-Explanation:
+Once inside the eco_routes directory, you can start installing the required dependencies and running the project locally.
 
-cd eco_routes changes your working directory to the project folder (eco_routes), so you're ready to work with the project files.
-
-Once you're inside the project directory, you can start installing dependencies and running the project locally.
