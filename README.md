@@ -48,52 +48,32 @@ Edit
 ## 🖥️ How to Run Locally
 
 ### 1. Clone the repository
+1. Clone the Repository
+To get started with the Eco-Routes project, you'll need to clone the repository to your local machine. This means creating a copy of the project on your system to work with.
+
+Steps to Clone the Repository:
+Open your terminal or command prompt. This is where you'll type the commands.
+
+Clone the repository by running the following command in your terminal:
+
+bash
+Copy
 git clone https://github.com/your-username/eco_routes.git
+Explanation:
+
+git clone is a command that makes a copy of the repository.
+
+Replace your-username with your GitHub username to reference the correct repository.
+
+This command will create a new folder named eco_routes on your local machine, which contains all the files and code from the GitHub repository.
+
+Navigate into the project directory by running the following command:
+
+bash
+Copy
 cd eco_routes
-2. Install Dependencies
-bash
-Copy
-Edit
-npm install
-3. Start the Development Server
-bash
-Copy
-Edit
-npm start
-Then open:
-👉 http://localhost:8080
+Explanation:
 
-🌐 Deployment
-Deployed using Netlify
+cd eco_routes changes your working directory to the project folder (eco_routes), so you're ready to work with the project files.
 
-To deploy:
-
-Create a production build:
-
-bash
-Copy
-Edit
-npm run build
-Upload the /dist folder manually to Netlify via https://app.netlify.com/drop
-
-Or set up continuous deployment from GitHub:
-
-Build Command: npm run build
-
-Publish Directory: dist
-
-📚 Project Report
-This project is supported by a 10,000+ word academic dissertation submitted to the University of Greenwich, addressing:
-
-Sustainable transportation
-
-Green software architecture
-
-Environmental impact modeling
-
-Integration of real-time APIs
-
-📬 Author
-Made with 💚 by Angel Raju
-MSc Computing and Information Systems
-University of Greenwich 
+Once you're inside the project directory, you can start installing dependencies and running the project locally.
