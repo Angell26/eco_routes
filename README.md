@@ -49,27 +49,42 @@ Edit
 
 ### 1. Clone the repository
 bash
+
 Copy
+
 git clone https://github.com/your-username/eco_routes.git
+
 cd eco_routes
+
 2. Install Dependencies
+
 bash
+
 Copy
+
 npm install
+
 3. Start the Development Server
+
 bash
+
 Copy
+
 npm start
+
 Then open:
+
 👉 http://localhost:8080
 
 🌐 Deployment
+
 To deploy the application on Netlify, follow these steps:
 
 1. Create a Production Build
 bash
 Copy
 npm run build
+
 2. Upload the /dist Folder to Netlify
 Go to Netlify and upload the /dist folder manually.
 
