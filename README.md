@@ -56,14 +56,21 @@ Open your terminal (or command prompt).
 Clone the repository by running the following command:
 
 bash
+
 Copy
+
 git clone https://github.com/your-username/eco_routes.git
+
 Replace your-username with your actual GitHub username.
 
 After cloning, navigate into the project directory with the following command:
 
+
 bash
+
 Copy
+
 cd eco_routes
+
 Once inside the eco_routes directory, you can start installing the required dependencies and running the project locally.
 
