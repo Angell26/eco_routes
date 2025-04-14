@@ -1,4 +1,5 @@
 # 🌍 Eco-Routes – Environmentally Friendly Travel Path Optimization
+![Screenshot 2025-04-14 030619](https://github.com/user-attachments/assets/6439c925-773a-4aca-9e95-23f6d6701fac)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2e4a0f47-f3ea-4a42-a7d5-4ad1267b81b5/deploy-status)](https://app.netlify.com/sites/earnest-bombolone-ceb0ff/deploys)
 
